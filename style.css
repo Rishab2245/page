@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: black 2px solid  ;
+    margin: 1rem 2rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    
+}
+ul li{
+    list-style: none;
+
+
+}
+nav button{
+    padding: ;
+    font-weight:500;
+    font-size: 19px;
+    line-height: 29.05px;
+    color: #FFFFFF;
+    height: 35px;
+    width: 100px;
+    border: none;
+    box-shadow:yellow 1px 1px 1px 4px;
+    background-color: #1A579D;
+    margin-right: 14px;
+
+}
+#section1{
+    margin: 1rem 2rem;
+
+
+    
+}
+#section1 .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+#section1 .content #text{
+    font-size: 3.8rem;
+    width: 40% ;
+    
+    font-weight: 500;
+}
+#section1 .content #explanation{
+
+      flex: right;
+     width: 40%;
+     font-size: 1.5rem;
+  }
+  #section1 .imge{
+
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+.part2{
+display: flex;
+justify-content: space-between ;
+}
+.part1{
+    border-bottom: 1px solid black;
+    
+}
+/* .part1 .imge .youtube{
+   margin-bottom: 2rem;
+    
+} */
+.part2{
+    padding-top: 2rem;
+}
+.part2 > p{
+    font-size: 3rem;
+    font-weight: 400;
+    width: 50%;
+}
+.card{
+    border: 1px solid black;
+    margin-bottom: 2px;
+
+}
+.cards{
+    display: flex;
+    margin-right: 1rem;
+    
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.youtube  img{
+  height: 40px;
+}
